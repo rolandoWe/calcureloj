@@ -133,6 +133,11 @@
     box-shadow: 0 0 4px 3px rgb(0, 0, 158) inset;
     cursor: pointer;
 }
+.clear{
+    background-color: rgb(251, 97, 97) !important;
+    box-shadow: 0 0 4px 3px red inset !important;
+    width:65px !important
+}
 @media(max-width:567px){
     .pantalla_tres{
         font-size: 26px;
