@@ -79,7 +79,7 @@
     margin: 1px auto;
 }
 .hora{
-    width:60%;
+    width:70%;
     /* border: solid black 1px; */
     margin:-10px auto;
     padding: 0;
@@ -87,7 +87,7 @@
     font-weight: bold;
 }
 .segundos{
-    /* width:40%; */
+    width:20%;
     /* border:solid red 1px; */
     margin: auto;
     font-size: 25px;
