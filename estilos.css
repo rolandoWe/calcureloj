@@ -9,9 +9,20 @@
     height: 100vh;
     background: linear-gradient(35deg,rgb(0, 0, 82),rgb(0, 110, 255),rgb(0, 0, 82));
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     /* animation: ani infinite linear 5s; */
+}
+.contenedor p{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    font-weight: bold;
+    color: rgb(0, 34, 64);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px white;
 }
 .caja{
     /* border:solid black 1px; */
@@ -105,6 +116,7 @@
     margin: 10px auto;
     /* border-radius: 2px; */
     text-align: center;
+    line-height: 30px;
     font-size: 26px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -127,6 +139,7 @@
     font-size: 28px;
     font-weight: bold;
     border: none;
+    line-height: 20px;
     border-radius: 5px;
     background: rgb(142, 168, 251);
     /* color: white; */
