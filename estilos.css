@@ -165,4 +165,7 @@
     .segundos{
         font-size: 18px;
     }
+    .contenedor p{
+        top:40px
+    }
 }
