@@ -4,33 +4,46 @@
     margin: 0;
     padding: 0;
 }
-.contenedor{
+.contenedorr{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(35deg,rgb(0, 0, 82),rgb(0, 110, 255),rgb(0, 0, 82));
+    background-image:linear-gradient(35deg,rgba(0, 0, 255, 0.8),rgb(0, 255, 255,.9),rgb(0, 0,255,.8)),url('imagenes/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     /* animation: ani infinite linear 5s; */
 }
-.contenedor p{
+.cajon{
+    width:420px;
+    /* border:solid red 1px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+.cajon p{
     width:100%;
     text-align: center;
-    position: absolute;
-    top:10px;
+    /* position: absolute; */
+    /* top:10px; */
+    padding: 5px 0;
     font-weight: bold;
-    color: rgb(0, 34, 64);
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background:linear-gradient( grey,rgb(90, 90, 90),grey);
+    margin-bottom: 0;
 }
 .caja{
     /* border:solid black 1px; */
     background: linear-gradient(-30deg,rgb(64, 64, 64),white,rgb(64, 64, 64));
     box-shadow: 0 0 10px 4px rgb(255, 255, 255) inset;
-    border-radius: 5px;
-    width:400px;
-    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:100%;
+    padding: 5px;
 }
 .pantallas{
     width:100%;
@@ -165,7 +178,7 @@
     .segundos{
         font-size: 18px;
     }
-    .contenedor p{
+    /* .contenedor p{
         top:40px
-    }
+    } */
 }
